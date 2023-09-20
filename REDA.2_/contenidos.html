@@ -1,40 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Contenidos</title>
-    <link rel="shortcut icon" href="img/conten.png">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contenidos</title>
+    <link rel="shortcut icon" href="img/conten.png" />
+    <style>
+      body {
+        background-color: mintcream;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .caja-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .caja {
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        margin: 0 10px; /* Espacio entre las cajas */
+        color: white;
+        text-align: center;
+      }
+      .caja-azul {
+        background-color: cornflowerblue;
+      }
+      .caja-roja {
+        background-color: olivedrab;
+      }
+      .caja-azulito {
+        background-color: tomato;
+      }
+      .caja-gris {
+        background-color: violet;
+      }
+    </style>
+  </head>
 
-<body style="background-color: rgba(241, 209, 209, 0.671)"></body>>
-    <nav>
-<a href="inicio.html">Inicio</a>|
-<a href="contenidos.html">contenidos</a>|
-<a href="actividades.html">actividades</a>|
-<a href="evaluaciones.html">evaluaciones</a>|
-<a href="materialcomplemetario.html">material complemetario</a>|
-<a href="creditos.html">creditos</a>|
-    </nav>
-        <center>
-<h1> TEMAS </h1>
-<hr noshade="noshade" color="green" size="3" width="500px">
-        </center>
-        <center>
-        <caption>Módulo 1: Introducción a las Redes Sociales en la Educación</caption>
+  <body>
+    <a href="inicio.html">Inicio</a>
+    <div style="text-align: center">
+      <h1>TEMAS</h1>
+      <hr noshade="noshade" color="green" size="3" width="500px" />
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias odio
+        ullam earum iusto, maiores magnam facere facilis repudiandae corporis
+        natus cum aut dolorum pariatur laborum nobis quasi, enim beatae est!
+      </p>
+    </div>
 
-        <ul>Lección 1.1: ¿Qué son las redes sociales educativas?</ul>
-        <ul>Lección 1.2: Ventajas y desafíos de utilizar redes sociales en el aula.</ul>
-        <ul>Lección 1.3: Ética en el uso de redes sociales en educación.</ul>
-    </center>
-        <hr noshade="noshade" color="Black" size="3" width="500px">
+    <hr noshade="noshade" color="Black" size="3" width="500px" />
 
-       
-            
+    <div class="caja-container">
+      <div class="caja caja-gris">
+        <h3>Actividades</h3>
+        <p>Aquí encontrarás más actividades para practicar</p>
+        <a href="actividades.html"><b>Click aquí</b></a>
+      </div>
 
+      <div class="caja caja-azul">
+        <h3>Evaluaciones</h3>
+        <p>
+          Diversas evaluaciones a tu disposición para que practiques todo lo
+          visto.
+        </p>
+        <a href="evaluaciones.html"><b>Click aquí</b></a>
+      </div>
 
+      <div class="caja caja-roja">
+        <h3>Material complementario</h3>
+        <p>
+          Aquí encontrarás una gran cantidad de material respecto al tema para
+          que refuerces y sigas aprendiendo.
+        </p>
+        <a href="materialcomplementario.html"><b>Click aquí</b></a>
+      </div>
 
-        
-    
-</body>
+      <div class="caja caja-azulito">
+        <h3>Créditos</h3>
+        <p>Créditos de la información usada</p>
+        <a href="creditos.html"><b>Click aquí</b></a>
+      </div>
+    </div>
+  </body>
 </html>
