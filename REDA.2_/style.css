@@ -30,3 +30,12 @@ background-color: blue;
     margin-right: 25px; 
 display: inline-block;
 } 
+
+.pdfview{
+margin: auto;
+display: inline;
+width: 400px;
+height:500px ;
+
+}
+
