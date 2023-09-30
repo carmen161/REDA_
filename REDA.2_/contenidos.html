@@ -13,28 +13,31 @@
         height: 100vh;
         margin: 0;
        }
-      .caja-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 10px;
-        }
-        .caja {
-        width: 150px;
-        height: 150px;
-        padding: 10px;
-        margin: 0 10px;
-        color: white;
-        text-align: center;
-      }
-      .caja-azul {
-        background-color: rosybrown;
-        border-radius: 20%;
-      }
-      .caja-gris {
-        background-color: darkcyan;
-        border-radius: 20%;
-      }
+       .caja-container {
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    .caja {
+      background-color: #f8f8f8;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h3 {
+      color: #333;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
 
   </style>
 </head>
@@ -51,15 +54,33 @@
     <h1>Contenidos</h1>
   </Center>
   <div class="caja-container">
-    <div class="caja caja-gris">
+    <div class="caja">
       <h3 style="color: black;">¿Qué es el Uso Responsable de la Tecnología?</h3>
-      <h4>
         <ul>
           <li>Definición del concepto</li>
           <li>Ejemplos de uso responsable e irresponsable</li>
         </ul>
-        </h4>
       <a href="primera.html"><b>Click aquí</b></a>
+    </div>
+    <div class="caja-container">
+      <div class="caja">
+        <h3 style="color: black;">Beneficios del Uso Responsable de la Tecnología</h3>
+        <ul>
+          <li>Descripción de cómo puede mejorar la vida de las personas</li>
+          <li>Ejemplos de cómo la tecnología puede ser una herramienta poderosa.</li>
+          <a href="segunda.html">Click aquí</a>
+        </ul>
+      </div>
+    </div>
+    <div class="caja-container">
+      <div class="caja">
+        <h3 style="color: black;">Peligros del Uso Irresponsable de la Tecnología</h3>
+        <ul>
+          <li>Descripción de los riesgos asociados</li>
+          <li>Consejos para identificar y prevenir problemas</li>
+          <a href="tercera.html">Click aquí</a>
+        </ul>
+      </div>
     </div>
 </body>
 </html>
