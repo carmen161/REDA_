@@ -2,9 +2,8 @@
   position:fixed ;
   top: 5px;
   left: 260px;
-  background-color: white;
+  background-color: #9E9E9E;
    padding: 30px;
-   color: white;
    border-radius: 20px;
    border-style:solid;
   border-color: black;
@@ -30,23 +29,29 @@
     margin-left: 5px;
     margin-top: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #CCFFFF; padding: 20px; margin-left: 40px; margin-right: 40px; border-radius: 20px;
+    background-color: #9E9E9E; padding: 20px; margin-left: 40px; margin-right: 40px; border-radius: 20px;
     border-style: solid;
      
   }
 
   .parrafo {
-
+    margin-bottom: 60px;
     text-align: center;
     font-size: 20px;
-    margin-left: 40px;
-    margin-right: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #E0E0E0;
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-left: 150px;
+    padding-right: 150px;
 
 
   }
 body{
-  background-color: aqua;
+  background-color: white;
   
 }
 
@@ -55,9 +60,13 @@ body{
 h3{
 
 text-align: center;
-background-color: aqua;
+background-color: #9E9E9E;
 font-size: 30px;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-left: 20px;
+margin-right: 20px;
+border-radius: 10px;
+border-style: solid;
 
 }
 
