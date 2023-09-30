@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contenidos</title>
+  <link rel="stylesheet" href="style.css">
   <style>
     body{
         display: flex;
@@ -32,6 +33,8 @@
 
     h3 {
       color: #333;
+text-align: center;
+background-color: #f8f8f8;
     }
 
     ul {
@@ -42,21 +45,46 @@
     li {
       margin-bottom: 10px;
     }
-
+    .Encabezado{
+    background-image: url(imagenc/contenido.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 600px; 
+    width: 100%;
+    }
+    .contenedor{
+    display: flex;
+    max-width:1800px ;
+    margin: 0 auto;
+    color: black;
+background-color: blue;
+justify-content: flex-start;
+    }
+    a{
+      color: black;
+      font-size: 20px;
+    }
   </style>
 </head>
 <body>
-  <nav>
-    <a href="inicio.html">Inicio</a>|
-    <a href="contenidos.html">Contenidos</a>|
-    <a href="actividades.html">Actividades</a>|
-    <a href="evaluaciones.html">Evaluaciones</a>|
-    <a href="materialcomplemetario.html">Material complemetario</a>|
-    <a href="creditos.html" target="_blank">Créditos</a>|
-  </nav>
+  <header class="Encabezado">
+    <ul class="contenedor">
+      <li><a href="inicio.html">Inicio</a></li>
+      <li><a href="contenidos.html">Contenidos</a></li>
+      <li><a href="actividades.html">Actividades</a></li>
+      <li><a href="evaluaciones.html">Evaluaciones</a></li>
+      <li><a href="materialcomplemetario.html">Material complemetario</a></li>
+      <li><a href="creditos.html">Créditos</a></li>
+       </ul>
+    </header>
+  <br>
+  <br>
   <dl style="text-align: justify;">
-    <center style="background-color: rgb(89, 182, 211);">
-<h1>Contenidos</h1></center>
+    <center>
+      <h1>Contenidos</h1>
+      <hr noshade="noshade" color="blue" size="4.5" width="1250px" /> 
+    </center>
   <div class="caja-container">
     <div class="caja">
       <h3 style="color: black;">¿Qué es el Uso Responsable de la Tecnología?</h3>
