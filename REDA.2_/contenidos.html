@@ -1,105 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contenidos</title>
-    <link rel="shortcut icon" href="img/conten.png" />
-  </head>
-
-  <body>
-    <a href="inicio.html">Inicio</a>
-    <div style="text-align: center">
-      <h1>TEMAS</h1>
-      <hr noshade="noshade" color="green" size="3" width="500px" />
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias odio
-        ullam earum iusto, maiores magnam facere facilis repudiandae corporis
-        natus cum aut dolorum pariatur laborum nobis quasi, enim beatae est!
-      </p>
-    </div>
-
-    <hr noshade="noshade" color="Black" size="3" width="500px" />
-
-    <div class="caja-container">
-      <div class="caja caja-gris">
-        <h3>Actividades</h3>
-        <p>Aquí encontrarás más actividades para practicar</p>
-        <a href="Introducción.html"><b>Click aquí</b></a>
-      </div>
-
-      <div class="caja caja-azul">
-        <h3>Evaluaciones</h3>
-        <p>
-          Diversas evaluaciones a tu disposición para que practiques todo lo
-          visto.
-        </p>
-        <a href="evaluaciones.html"><b>Click aquí</b></a>
-      </div>
-
-      <div class="caja caja-roja">
-        <h3>Material complementario</h3>
-        <p>
-          Aquí encontrarás una gran cantidad de material respecto al tema para
-          que refuerces y sigas aprendiendo.
-        </p>
-        <a href="materialcomplementario.html"><b>Click aquí</b></a>
-      </div>
-
-      <div class="caja caja-azulito">
-        <h3>Créditos</h3>
-        <p>Créditos de la información usada</p>
-        <a href="creditos.html"><b>Click aquí</b></a>
-      </div>
-      <div class="caja caja-morada">
-        <h3>LALA</h3>
-        <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus non, odit repudiandae, officia enim molestiae, esse in optio voluptatum corporis atque dolores doloribus necessitatibus voluptatem! Ad ab fuga iste velit!</p>
-
-      </div>
-    </div>
-  </body>
-</html>
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Contenidos</title>
-    <link rel="shortcut icon" href="img/conten.png">
-    <div class="style"></div>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contenidos</title>
+  <style>
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+       }
+      .caja-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        }
+        .caja {
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+        margin: 0 10px;
+        color: white;
+        text-align: center;
+      }
+      .caja-azul {
+        background-color: rosybrown;
+        border-radius: 20%;
+      }
+      .caja-gris {
+        background-color: darkcyan;
+        border-radius: 20%;
+      }
+
+  </style>
 </head>
-
 <body>
-
-  </head>
-  <body>
-
-    <nav>
-      <a href="inicio.html">Inicio</a>|
-      <a href="contenidos.html">Contenidos</a>|
-      <a href="actividades.html">Actividades</a>|
-      <a href="evaluaciones.html">Evaluaciones</a>|
-      <a href="materialcomplemetario.html">Material complemetario</a>|
-      <a href="creditos.html">Créditos</a>|
-      <center>
-        <h1>Esta es la pagina de contenidos</h1>
-        <hr noshade="noshade" color="green" size="3" width="500px" />
-      </center>
-    </nav>
-        <center>
-<h1> Esta es la pagina de contenidos </h1>
-<hr noshade="noshade" color="green" size="3" width="500px">
-        </center>
-        <p>En esta página encontraremos las diferentes opciones que tenemos en el blog</p>
-        <div>
-            <h3>Actividades</h3>
-            <p>En este apartado tenemos distintas <b> actividades </b>   para que realices y pongas en prática lo aprendido</p>
-        </div>
-        <div>
-            <h3>Evaluaciones</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, sit iure recusandae tempore adipisci tenetur deserunt provident et quis incidunt placeat, tempora ipsa sequi, debitis ex facere nemo modi velit!</p>
-        </div>
-
-
+  <nav>
+    <a href="inicio.html">Inicio</a>|
+    <a href="contenidos.html">Contenidos</a>|
+    <a href="actividades.html">Actividades</a>|
+    <a href="evaluaciones.html">Evaluaciones</a>|
+    <a href="materialcomplemetario.html">Material complemetario</a>|
+    <a href="creditos.html" target="_blank">Créditos</a>|
+  </nav>
+  <Center>
+    <h1>Contenidos</h1>
+  </Center>
+  <div class="caja-container">
+    <div class="caja caja-gris">
+      <h3 style="color: black;">¿Qué es el Uso Responsable de la Tecnología?</h3>
+      <h4>
+        <ul>
+          <li>Definición del concepto</li>
+          <li>Ejemplos de uso responsable e irresponsable</li>
+        </ul>
+        </h4>
+      <a href="primera.html"><b>Click aquí</b></a>
+    </div>
 </body>
 </html>
