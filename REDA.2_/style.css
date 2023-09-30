@@ -1,0 +1,32 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.Encabezado{
+    background-image: url(nataimagenes/hi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+
+
+    height: 55vh; 
+}
+
+.contenedor{
+    display: flex;
+    max-width:1400px ;
+    margin: 0 auto;
+    color: black;
+background-color: blue;
+
+}
+
+ a { 
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-right: 25px; 
+display: inline-block;
+} 
