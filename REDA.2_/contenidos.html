@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contenidos</title>
+  <link rel="stylesheet" href="style.css">
   <style>
     body{
         display: flex;
@@ -16,6 +17,10 @@
        .caja-container {
       background-color: #f0f0f0;
       padding: 20px;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
     }
 
     .caja {
@@ -28,6 +33,8 @@
 
     h3 {
       color: #333;
+text-align: center;
+background-color: #f8f8f8;
     }
 
     ul {
@@ -38,29 +45,54 @@
     li {
       margin-bottom: 10px;
     }
-
+    .Encabezado{
+    background-image: url(imagenc/contenido.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 600px; 
+    width: 100%;
+    }
+    .contenedor{
+    display: flex;
+    max-width:1800px ;
+    margin: 0 auto;
+    color: black;
+background-color: blue;
+justify-content: flex-start;
+    }
+    a{
+      color: black;
+      font-size: 20px;
+    }
   </style>
 </head>
 <body>
-  <nav>
-    <a href="inicio.html">Inicio</a>|
-    <a href="contenidos.html">Contenidos</a>|
-    <a href="actividades.html">Actividades</a>|
-    <a href="evaluaciones.html">Evaluaciones</a>|
-    <a href="materialcomplemetario.html">Material complemetario</a>|
-    <a href="creditos.html" target="_blank">Créditos</a>|
-  </nav>
-  <Center>
-    <h1>Contenidos</h1>
-  </Center>
+  <header class="Encabezado">
+    <ul class="contenedor">
+      <li><a href="inicio.html">Inicio</a></li>
+      <li><a href="contenidos.html">Contenidos</a></li>
+      <li><a href="actividades.html">Actividades</a></li>
+      <li><a href="evaluaciones.html">Evaluaciones</a></li>
+      <li><a href="materialcomplemetario.html">Material complemetario</a></li>
+      <li><a href="creditos.html">Créditos</a></li>
+       </ul>
+    </header>
+  <br>
+  <br>
+  <dl style="text-align: justify;">
+    <center>
+      <h1>Contenidos</h1>
+      <hr noshade="noshade" color="blue" size="4.5" width="1250px" /> 
+    </center>
   <div class="caja-container">
     <div class="caja">
       <h3 style="color: black;">¿Qué es el Uso Responsable de la Tecnología?</h3>
         <ul>
           <li>Definición del concepto</li>
           <li>Ejemplos de uso responsable e irresponsable</li>
+          <a href="primera.html"><b>Click aquí</b></a>
         </ul>
-      <a href="primera.html"><b>Click aquí</b></a>
     </div>
     <div class="caja-container">
       <div class="caja">
@@ -68,7 +100,7 @@
         <ul>
           <li>Descripción de cómo puede mejorar la vida de las personas</li>
           <li>Ejemplos de cómo la tecnología puede ser una herramienta poderosa.</li>
-          <a href="segunda.html">Click aquí</a>
+          <a href="segunda.html"><b>Click aquí</b></a>
         </ul>
       </div>
     </div>
@@ -78,7 +110,7 @@
         <ul>
           <li>Descripción de los riesgos asociados</li>
           <li>Consejos para identificar y prevenir problemas</li>
-          <a href="tercera.html">Click aquí</a>
+          <a href="tercera.html"><b>Click aquí</b></a>
         </ul>
       </div>
     </div>
