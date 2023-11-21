@@ -6,113 +6,133 @@
   <title>Contenidos</title>
   <link rel="stylesheet" href="style.css">
   <style>
-    body{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        margin: 0;
-       }
-       .caja-container {
-      background-color: #f0f0f0;
-      padding: 20px;
-      display: flex;
-    justify-content: center;
-    align-items: center;
+     body{
+    background-color: white;
+  }
+       
+    .encab{
+    text-align: center;
+    width: auto;
+    height: 75px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: rgb(159, 166, 228);
+    overflow:hidden;
     margin-bottom: 10px;
-    }
+    margin-top: 33px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border:0.1em solid black;
+  
+  }
+  /*.navbar {
+    width: auto;
+    height: 30px ;
+    background-color: rgb(102, 123, 205);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border:0.1em solid black;
+    transition: background 0.3s;
+  }*/
+  nav {
+            background: rgb(102, 123, 205);
+            color: #f9feff;
+            padding: 10px; 
+            text-align: center;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+  nav a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 5px 15px;
+            margin: 0 5px;
+            border-radius: 5px;
+            background: rgb(144, 156, 206);
+            transition: background 0.3s;
+        }
+    
+    section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+            gap: 10px;
+        }
 
-    .caja {
-      background-color: #f8f8f8;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-      padding: 20px;
-      text-align: center;
-    }
-
-    h3 {
-      color: #333;
-text-align: center;
-background-color: #f8f8f8;
-    }
-
-    ul {
-      list-style-type: disc;
-      padding-left: 20px;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-    .Encabezado{
-    background-image: url(imagenc/contenido.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover ;
-    height: 600px; 
-    width: 100%;
-    }
-    .contenedor{
-    display: flex;
-    max-width:1800px ;
-    margin: 0 auto;
-    color: black;
-    background-color: blue;
-    justify-content: flex-start;
-    }
-    a{
-      color: black;
-      font-size: 20px;
-    }
+        aside {
+            flex: 1;
+            background-color: #ca7d90;
+            padding: 80px;
+            margin-left: 10%;
+        }
+        .aside-2 {
+            flex: 1;
+            background-color:  #4ef1a0a9;
+            padding: 80px;
+            margin-right: 10%;
+        }
+        footer {
+            background-color: goldenrod;
+            text-align: center;
+            padding: 50px;
+            margin-left: 30%;
+            margin-right: 30%;
+        }
   </style>
 </head>
 <body>
-  <header class="Encabezado">
-    <ul class="contenedor">
-      <li><a href="inicio.html">Inicio</a></li>
-      <li><a href="contenidos.html">Contenidos</a></li>
-      <li><a href="actividades.html">Actividades</a></li>
-      <li><a href="evaluaciones.html">Evaluaciones</a></li>
-      <li><a href="materialcomplemetario.html">Material complemetario</a></li>
-      <li><a href="creditos.html">Créditos</a></li>
-       </ul>
+  <header class="encab">
+    <h1>Uso seguro y responsable de las TIC</h1>
     </header>
-  <br>
-  <br>
-  <dl style="text-align: justify;">
-    <center>
-      <h1>Contenidos</h1>
-      <hr noshade="noshade" color="blue" size="4.5" width="1250px" /> 
-    </center>
-  <div class="caja-container">
-    <div class="caja">
-      <h3 style="color: black;">¿Qué es el Uso Responsable de la Tecnología?</h3>
-        <ul>
-          <li>Definición del concepto</li>
-          <li>Ejemplos de uso responsable e irresponsable</li>
-          <a href="primera.html"><b>Click aquí</b></a>
-        </ul>
-    </div>
-    <div class="caja-container">
-      <div class="caja">
-        <h3 style="color: black;">Beneficios del Uso Responsable de la Tecnología</h3>
-        <ul>
-          <li>Descripción de cómo puede mejorar la vida de las personas</li>
-          <li>Ejemplos de cómo la tecnología puede ser una herramienta poderosa.</li>
-          <a href="segunda.html"><b>Click aquí</b></a>
-        </ul>
-      </div>
-    </div>
-    <div class="caja-container">
-      <div class="caja">
-        <h3 style="color: black;">Peligros del Uso Irresponsable de la Tecnología</h3>
-        <ul>
-          <li>Descripción de los riesgos asociados</li>
-          <li>Consejos para identificar y prevenir problemas</li>
-          <a href="tercera.html"><b>Click aquí</b></a>
-        </ul>
-      </div>
-    </div>
+    <nav 
+      <a href="inicio.html">Inicio</a>|
+      <a href="contenidos.html">Contenidos</a>|
+      <a href="actividades.html">Actividades</a>|
+      <a href="evaluaciones.html">Evaluaciones</a>|
+      <a href="materialcomplemetario.html">Material complementario</a>|
+      <a href="creditos.html" target="_blank">Créditos</a>|
+    </nav>
+      <section>
+        <aside >
+           <center>
+            <h3>Riesgos</h3>
+           <ul>
+            <li> <a href="primera.html">Riesgos asociados al uso de las tecnologías</a></li>
+           </ul>
+           </center>
+        </aside>
+        <aside class="aside-2">
+            <center>
+              <h3>Identidad digital</h3>
+            <ul>
+              <li><a href="segunda.html">Identidad digital</a></li>
+            </ul>
+            </center>
+        </aside>
+    </section>
+    <footer>
+      <center>
+        <h3>Protección de datos</h3>
+      <ul>
+        <li><a href="tercera.html">Tratamiento de datos</a></li>
+      </ul>
+      <ul>
+        <li><a href="cuarta.html">Entornos virtuales de aprendizaje</a></li>
+      </ul>
+      <ul>
+        <li><a href="quinta.html">Uso de aplicaciones</a></li>
+      </ul>
+      <ul>
+        <li><a href="seis.html">Difusión de las producciones del alumnado</a></li>
+      </ul>
+      </center>
+  </footer>
 </body>
 </html>
