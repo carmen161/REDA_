@@ -16,7 +16,7 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: auto 1fr auto;
-      min-height:100vh;
+      min-height:50vh;
       gap: 10px;
       text-align: justify;
   }
@@ -28,6 +28,27 @@
             letter-spacing: 4px; 
             text-shadow: 2px 2px 4px rgb(250, 159, 197); 
         }
+        .contenedor {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+        }
+
+        .rectangulo {
+            width: 150px;
+            height: 50px;
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            line-height: 50px;
+           
+        }
+        main {
+        display: grid;
+      grid-template-columns: 6fr 5fr;
+      gap: 60px;
+      margin-bottom: 10px;
+  }
     </style>
 </head>
 <body>
@@ -37,8 +58,14 @@
     Redes sociales, blogs, foros, wikis…, como servicios que ofrece Internet, constituyen canales abiertos y multidireccionales que facilitan la interacción, la colaboración y la participación de las diferentes personas usuarias.
 <br>
 El uso inadecuado de estos servicios puede generar una serie de riesgos que es necesario conocer para prevenirlos. Algunos de ellos son:
-</p>
 
-    </dl>
+<div class="contenedor">
+    <img src="imagenesDag/ciber.png" alt="no encontradaa" width="150" height="150">
+    <div class="rectangulo">
+        Ciberadicción
+    </div>
+</div>
+</p>
+</dl>
 </body>
 </html>
