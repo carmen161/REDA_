@@ -47,6 +47,7 @@
             margin-bottom: 10px;
             margin-left: 20px;
             margin-right: 20px;
+            border:0.1em solid black;
         }
   nav a {
             text-decoration: none;
@@ -56,6 +57,7 @@
             border-radius: 5px;
             background: rgb(144, 156, 206);
             transition: background 0.3s;
+            
         }
     
     section {
@@ -69,36 +71,55 @@
         aside {
             flex: 1;
             background-color: #ca7d90;
-            padding: 80px;
-            margin-left: 10%;
+            padding: 65px;
+            border:0.1em solid black;
+            margin-right: 20%;
+            margin-left: 20%;
         }
         .aside-2 {
             flex: 1;
             background-color:  #4ef1a0a9;
-            padding: 80px;
-            margin-right: 10%;
+            padding: 65px;
+            border:0.1em solid black;
+            margin-right: 20%;
+            margin-left: 20%;
         }
         footer {
+          flex: 1;
             background-color: goldenrod;
             text-align: center;
-            padding: 50px;
-            margin-left: 30%;
-            margin-right: 30%;
+            padding: 65px;
+            border:0.1em solid black;
+            margin-right: 20%;
+            margin-left: 20%;
+        }
+        .sub {
+          color: rgb(0, 0, 0);
+          border: 2px solid rgb(144, 156, 206); 
+    padding: 7px; 
+    text-shadow: 2px 2px 2px rgb(144, 156, 206);
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: 30px;
+
         }
   </style>
 </head>
 <body>
   <header class="encab">
-    <h1>Uso seguro y responsable de las TIC</h1>
+    <h1>CONTENIDO</h1>
     </header>
-    <nav 
+    <nav class="navbar">
+  
       <a href="inicio.html">Inicio</a>|
       <a href="contenidos.html">Contenidos</a>|
       <a href="actividades.html">Actividades</a>|
       <a href="evaluaciones.html">Evaluaciones</a>|
-      <a href="materialcomplemetario.html">Material complementario</a>|
-      <a href="creditos.html" target="_blank">Créditos</a>|
-    </nav>
+      <a href="materialcomplemetario.html">Material complemetario</a>|
+      <a href="creditos.html">Créditos</a>
+        </nav>
+    <h1 class="sub">USO SEGURO Y RESPONSABLE DE LAS TIC</h1>
       <section>
         <aside >
            <center>
@@ -108,31 +129,35 @@
            </ul>
            </center>
         </aside>
+      </section>
+      <section>
         <aside class="aside-2">
-            <center>
-              <h3>Identidad digital</h3>
-            <ul>
-              <li><a href="segunda.html">Identidad digital</a></li>
-            </ul>
-            </center>
-        </aside>
-    </section>
-    <footer>
-      <center>
-        <h3>Protección de datos</h3>
-      <ul>
-        <li><a href="tercera.html">Tratamiento de datos</a></li>
-      </ul>
-      <ul>
-        <li><a href="cuarta.html">Entornos virtuales de aprendizaje</a></li>
-      </ul>
-      <ul>
-        <li><a href="quinta.html">Uso de aplicaciones</a></li>
-      </ul>
-      <ul>
-        <li><a href="seis.html">Difusión de las producciones del alumnado</a></li>
-      </ul>
-      </center>
-  </footer>
+          <center>
+            <h3>Identidad digital</h3>
+          <ul>
+            <li><a href="segunda.html">Identidad digital</a></li>
+          </ul>
+          </center>
+      </aside>
+      </section>
+      <section>
+        <footer>
+          <center>
+            <h3>Protección de datos</h3>
+          <ul>
+            <li><a href="tercera.html">Tratamiento de datos</a></li>
+          </ul>
+          <ul>
+            <li><a href="cuarta.html">Entornos virtuales de aprendizaje</a></li>
+          </ul>
+          <ul>
+            <li><a href="quinta.html">Uso de aplicaciones</a></li>
+          </ul>
+          <ul>
+            <li><a href="seis.html">Difusión de las producciones del alumnado</a></li>
+          </ul>
+          </center>
+      </footer>
+      </section>
 </body>
 </html>
