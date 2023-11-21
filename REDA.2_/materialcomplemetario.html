@@ -127,7 +127,7 @@ border:0.1em solid black;
   }
   .footer{
     position:relative;
-      bottom: 145em ;
+      bottom: 146em ;
       left: 20em;
       display:flex;
       flex-direction: column ;
@@ -149,6 +149,7 @@ border:0.1em solid black;
     padding-right: 30px;
     font-size: medium;
   }
+ 
 </style>
 </head>
 <body>
@@ -202,14 +203,30 @@ border:0.1em solid black;
 </section>
 
 <footer class="footer">
-  <p><b>Si tienes alguna duda envianos un comentario</b></p>
-  <form>
-    <div class="row">
-      <textarea class="large-12 columns"></textarea>
-    </div>
-    <button type="submit" class="button">Enviar comentario</button>
-  </form>
-  
+ <h3> Tus opiniones nos ayudan a mejorar, por eso escribe un comentario</h3>
+
+  <textarea id="comment-input"></textarea><br>
+  <button id="submit-button">Enviar</button>
+
+
+<div id="comment-section">
+  <h3>Comentarios:</h3>
+<div id="comments-container"></div>
+ </div>
+
+  <script>
+const submitButton = document.getElementById("submit-button");
+const commentInput = document.getElementById("comment-input");
+const commentsContainer = document.getElementById("comments-container");
+
+submitButton.addEventListener("click", function() {
+  const comment = commentInput.value;
+  const commentElement = document.createElement("div");
+  commentElement.innerHTML = comment;
+  commentsContainer.appendChild(commentElement);
+  commentInput.value = "";
+});
+  </script>
 </footer>
     </body> 
     </html>
