@@ -11,83 +11,193 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 30px;
       padding: 20px;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: auto 1fr auto;
-      min-height:100vh;
-      gap: 10px;
+      background-color: #F2EEAC;
+  }
+  
+
+  header{
+border-color: white;
+border-style: solid;
+border-radius: 5px;
+    background-color:#618CBF;
+text-align: center;
+margin-top: 1px;
+padding: 35px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+
+
   }
 
-  header{ 
-      color: #000000;
-      text-align: center;
-      margin-bottom: 10px;
-  }
+  
 
   ul {
-      background: #c09d00;
-      color: #f9feff;
-      padding: 10px; 
+      background: #587E8C;
+      color: #f9feff;; 
       text-align: center;
-      margin-bottom: 10px;
       list-style: none;
-           
-  }
+      padding-top:20px;
 
-  ul a {
-      text-decoration: none;
-      color: #000000;
-      padding: 5px 15px;
-      margin: 0 5px;
+      margin-bottom: auto;
+      padding-bottom: 20px;
       border-radius: 5px;
-      background: #ecca6d;
-      transition: background 0.3s;
-  }
+      border-style: solid;
+      border-color:white;
+      margin-left: 12px;
+      margin-right: 12px;
 
-  ul a:hover {
-      background: #b3c03a;
-  }
-  .li{
-            display:inline-flex;
-            margin-right: 20px; 
-            list-style:none;
-    
-        }
-    
- 
-        h1 {
-          color: rgb(0, 0, 0);
-          font-family: ;
-          border: 2px solid #ff8800; 
-    padding: 10px; 
-    text-shadow: 2px 2px 4px rgb(248, 236, 126);
+    }
 
-        }
+ul a {
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background: #87C1D6;
+    transition: background 0.3s;
+    
+
+}
+.eval{
+  background-color: #587E8C;
+}
+ul a:hover {
+    background: white;
+}
+.li{
+          display:inline-flex;
+          margin-right: 20px; 
+          list-style:none;
+  
+      }
+  .preg_1{
+padding-top:20px;
+padding-bottom: 20px;
+background-color:;
+}
+.formulario_1{
+    margin-top: 20px;
+background-color: #587E8C;
+padding: 20px;
+border-radius: 10px;
+border-color: black;
+border-style: solid;
+font-family: 'Times New Roman', Times, serif;
+font-size: 1.4em;
+margin-right: 40%;
+}
+
+#aside {
+
+background-color:#618CBF ;
+margin-left: 800px;
+width: 300px;
+height: 300px;
+text-align: center;
+padding: auto;
+margin-top: -400px;
+border-radius: 10px;
+border-color: #f9feff;
+border-style: solid;
+padding: 10px;
+
+}
+
+
+img{
+
+width: 280px;
+margin-left: 70%;
+margin-top: -435px;
+display: flex;
+
+
+
+}
+
+       
+
+
     </style>
 </head>
 
 <body>
+    <header>EVALUACIONES</header>
   
-    <header>
+    
         <ul>
           <div class="li">
           <li><a href="inicio.html">Inicio</a></li>
           <li><a href="contenidos.html">Contenidos</a></li>
           <li><a href="actividades.html">Actividades</a></li>
-          <li><a href="evaluaciones.html">Evaluaciones</a></li>
+          <li><a class="eval" href="evaluaciones.html">Evaluaciones</a></li>
           <li><a href="materialcomplemetario.html">Material complemetario</a></li>
           <li><a href="creditos.html">Créditos</a></li>
-        </div>
-           </ul>
-        </header>
-        <dl>
-        <center>
-<h1>Evaluaciones </h1>
-        </center>
-        <p> Se hara una evaluacion usando la herramienta de Google</p>
-</dl>
-   <main>
+    </ul>
 
-   </main>
+
+<main id="formulario">
+  
+<div class="formulario_1">
+  <fieldset class="preg_1">
+    <legend>Pregunta 1: ¿Qué es la identidad digital?</legend>
+    <label for="q1_option1">
+      <input type="radio" id="q1_option1" name="q1" value="opcion1">La identidad digital se refiere 
+      exclusivamente a la cantidad de seguidores y likes que una persona tiene en redes sociales.
+    </label>
+    <br>
+    <br>
+    <label for="q1_option2">
+      <input type="radio" id="q1_option2" name="q1" value="opcion2"> La identidad digital se refiere 
+      exclusivamente a la cantidad de seguidores y likes que una persona tiene en redes sociales.
+    </label>
+    <br>
+    <br>
+    <label for="q1_option3">
+      <input type="radio" id="q1_option3" name="q1" value="opcion3">Se entiende por identidad 
+      digital únicamente la seguridad de las contraseñas en línea de una persona.
+    </label>
+    <br>
+    <br>
+    <label for="q1_option4">
+      <input type="radio" id="q1_option4" name="q1" value="opcion4">La identidad digital es un concepto 
+      obsoleto,
+       ya que la privacidad en línea no tiene relevancia en la actualidad.
+    </label>
+    
+
+  </fieldset>
+
+
+  <fieldset>
+    <legend>Pregunta 2: ¿Cuales son los riesgos de las tecnologías?</legend>
+    <label for="q2_option1">
+      <input type="radio"  name="q2" value="opcion1"> Opción 1
+    </label>
+    <label for="q2_option2">
+      <input type="radio"  name="q2" value="opcion2"> Opción 2
+    </label>
+    <label for="q2_option3">
+      <input type="radio"  name="q3" value="opcion3"> Opción 2
+    </label>
+    <label for="q2_option4">
+      <input type="radio"   name="q4"value="opcion4"> Opción 2
+    </label>
+
+  </fieldset>
+  <center>
+  <input type="submit" value="Enviar respuestas">
+</center>
+</div>
+  <aside id="aside">
+    <h2>BIENVENIDO A EVALUACIONES</h2>
+    <p>Aquí encontraras una serie de preguntas que nos ayudarán a saber tu nivel de entiendimiento 
+      acerca del uso responsable y seguro de las TIC
+    </p>
+  </aside>
+</main>
+
+<img src="img/R (9).png">
 </body>
 </html>
