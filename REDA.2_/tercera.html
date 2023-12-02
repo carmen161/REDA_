@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protección</title>
+    <title>Protección de Datos</title>
     <style>
-        nav {
-            background:rgb(214, 48, 48);
-            color: #f9feff;
-            padding: 10px; 
-            text-align: center;
-            margin-bottom: 10px;
-            margin-left: 20px;
-            margin-right: 20px;
-            border:0.1em solid black;
+        body {
+            margin: 0;
+            padding: 0;
         }
-  nav a {
+
+        nav {
+            background: rgb(214, 48, 48);
+            color: #f9feff;
+            padding: 10px;
+            text-align: center;
+            margin: 0 20px 10px;
+            border: 0.1em solid black;
+        }
+
+        nav a {
             text-decoration: none;
             color: #ffffff;
             padding: 5px 15px;
@@ -23,93 +28,80 @@
             border-radius: 5px;
             background: rgb(243, 116, 116);
             transition: background 0.3s;
-            
         }
+
         nav a:hover {
             background: blue;
         }
+
         h1 {
-          color: rgb(0, 0, 0);
-          border: 2px solid red; 
-          padding: 10px; 
-          margin-left: 20%;
-          margin-right: 20%;
+            color: rgb(0, 0, 0);
+            border: 2px solid red;
+            padding: 10px;
+            margin: 0 20%;
         }
-        h2{
+
+        h2 {
             text-align: center;
         }
+
         .tex {
             text-align: justify;
             font-size: 20px;
             padding-left: 2%;
         }
-.img {
-    
-    width: 400px;
-    height: 360px;
-    padding-top: 3%;
-}
 
-main{
-      display: grid;
-      grid-template-columns: 6fr 5fr;
-      gap: 60px;
-      margin-bottom: 10px;
-  }
-  section {
-    background: #ffffff;
-      padding: 20px;
-      border-radius: 20px;
-      text-align: center;
-  }
-  .seccion2 {
-    background: rgb(243, 116, 116);
-      padding: 30px; 
-      border-radius: 20px;
-      text-align: center;
-      margin-left: 5%;
-  }
-  .seccion3{
-    background: rgb(243, 116, 116);
-      padding: 20px; 
-      border-radius: 20px;
-      text-align: center;
-      margin-right: 5%;
-  }
-  .seccion4{
-    background: rgb(243, 116, 116);
-      padding: 30px; 
-      border-radius: 20px;
-      text-align: center;
-      margin-left: 5%;
-  }
-  .seccion5{
-    background: rgb(243, 116, 116);
-      padding: 20px; 
-      border-radius: 20px;
-      text-align: center;
-      margin-right: 5%;
-  }
+        .img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            padding-top: 3%;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 6fr 5fr;
+            gap: 60px;
+            margin-bottom: 10px;
+        }
+
+        section {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        .seccion2,
+        .seccion3,
+        .seccion4,
+        .seccion5 {
+            background: rgb(243, 116, 116);
+            padding: 20px 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin: 0 5%;
+            font-size: 19px;
+        }
     </style>
 </head>
+
 <body>
     <header>
-        <br>
-        <nav class="navbar">
-  
+        <nav>
             <a href="inicio.html">Inicio</a>|
             <a href="contenidos.html">Contenidos</a>|
             <a href="actividades.html">Actividades</a>|
             <a href="evaluaciones.html">Evaluaciones</a>|
-            <a href="materialcomplemetario.html">Material complemetario</a>|
+            <a href="materialcomplemetario.html">Material complementario</a>|
             <a href="creditos.html">Créditos</a>
-              </nav>
-            <center>
-                <h1>Protección de datos</h1>
-            </center>
-           <main>
+        </nav>
+        <center>
+            <h1>Protección de Datos</h1>
+        </center>
+        <main>
             <section>
-                <h2>Tratamiento de datos personales</h2>
+                <h2>Tratamiento de Datos Personales</h2>
                 <p class="tex">La protección de datos personales es un derecho fundamental de las personas físicas amparado por 
                     el artículo <b>18.4 de la Constitución Española</b> y regulado por el <b>Reglamento Europeo 2016/679</b> y 
                     por la <b>Ley Orgánica 3/2018 de Protección de Datos Personales</b> y garantía de los derechos digitales. 
@@ -119,83 +111,62 @@ main{
                     <br>La recogida de datos para la matrícula, la actualización del expediente, la gestión de calificaciones, 
                     así como la captación de imágenes y voz del alumnado, son ejemplos de tratamiento de datos, y en todos ellos 
                     se debe garantizar la normativa vigente en materia de protección de datos.</p>
-        </section>
-        <section>
-            <img src="imagenc/datos.png" alt="no encontrada" width="100" height=100" class="img">
-        </section>
-           </main>
-           <br>
-           <main class="main2">
+            </section>
+            <section>
+                <img src="imagenc/datos.png" alt="Imagen no encontrada" class="img">
+            </section>
+        </main>
+        <main>
             <section class="seccion2">
                 <details>
-                    <summary>¿Qué son los datos personales?</summary>
-                    <p style="text-align: justify">
-                        <span style="text-align: justify">
-                            Toda la información que <b>identifique</b> a una persona física, como datos identificativos (nombre, apellidos, DNI,..) o datos propios de su identidad física (imagen o voz), fisiológica, genética, psíquica, cultural, social o económica.                        </span>
-                    </p>
+                    <summary>¿Qué son los Datos Personales?</summary>
+                    <p class="tex">Toda la información que identifique a una persona física, como datos identificativos
+                        (nombre, apellidos, DNI, etc.) o datos propios de su identidad física, fisiológica, genética,
+                        psíquica, cultural, social o económica.</p>
                 </details>
             </section>
             <section class="seccion3">
                 <details>
-                <summary>¿Es necesario el consentimiento previo para tratar datos personales?</summary>
-                <p style="text-align: justify">
-                    <span style="text-align: justify">
-                        El tratamiento de datos personales necesita estar legitimado. Esta legitimación puede estar basada en un consentimiento previo, firmado por la persona titular de los datos, o de sus padres o tutores legales en el caso de menores de 14 años.
-                        <br>Pero además del consentimiento, existen otras bases de legitimación que permiten el tratamiento de datos sin el consentimiento expreso de la persona titular.  
-                        <br>En el ámbito educativo, la Ley Orgánica de Educación de 2006 (LOE) legitima a los centros educativos a recabar y tratar datos del alumnado y de sus responsables legales cuando sean necesario para la función educativa y orientadora.
-                        <br>Además, los centros educativos también podrán recabar datos en los siguientes casos:
-                        <ul> <li>Para la formalización de la matrícula del alumnado.</li>
-                            <li>Cuando se disponga del consentimiento de las personas interesadas.</li>
-                            <li>Cuando pueda existir un interés legítimo que prevalezca sobre los derechos y libertades de la persona interesada.</li>
-                        </ul>
-                </p>
-            </details>
+                    <summary>¿Es Necesario el Consentimiento Previo?</summary>
+                    <p class="tex">El tratamiento de datos personales necesita estar legitimado. Puede basarse en el
+                        consentimiento previo, firmado por la persona titular de los datos o sus padres/tutores legales
+                        en el caso de menores de 14 años. Además, existen otras bases de legitimación según la normativa.</p>
+                </details>
             </section>
-           </main>
-           <br>
-           <main>
+        </main>
+        <main>
             <section class="seccion4">
                 <details>
-                    <summary>¿Se puede realizar el tratamiento de datos personales de categorías especiales?</summary>
-                    <p style="text-align: left">
-                        <span style="text-align: left">
-                            En términos generales queda prohibido el tratamiento de datos personales de categorías especiales. 
-                            Estos datos hacen referencia a:                            
-                            <br>Pero además del consentimiento, existen otras bases de legitimación que permiten el tratamiento de datos sin el consentimiento expreso de la persona titular.  
-                            <br>
-                            <ul>
-                                <li>Origen étnico o racial</li>
-                                <li>Opiniones políticas</li>
-                                <li>Convicciones religiosas o filosóficas</li>
-                                <li>Afiliación sindical</li>
-                                <li>Datos genéticos</li>
-                                <li>Datos biométricos</li>
-                                <li>Datos relativos a la salud</li>
-                                <li>Datos relativos a la vida sexual o las orientación sexuales de una persona.</li>
-                            </ul>
-                            Sin embargo, esta prohibición no es de aplicación en algunas circunstancias, y en el ámbito 
-                            educativo, la LOE legitima a los centros educativos a recabar y tratar información del alumnado 
-                            y de sus representantes legales, incluyendo las categorías especiales de datos, como los de salud 
-                            o religión, cuando fuesen necesarios para el desempeño de la función docente y orientadora.
-                    </p>
+                    <summary>Tratamiento de Datos de Categorías Especiales</summary>
+                    <p class="tex">En términos generales, queda prohibido el tratamiento de datos personales de categorías
+                        especiales. Sin embargo, existen excepciones, especialmente en el ámbito educativo, donde se
+                        pueden recabar y tratar ciertos datos con legitimación según la Ley Orgánica de Educación.</p>
                 </details>
             </section>
             <section class="seccion5">
                 <details>
-                    <summary>Tratamiento de datos de menores</summary>
-                    <p style="text-align: justify">
-                        <span style="text-align: justify">
-                            Los menores se consideran personas vulnerables y el tratamiento de sus datos requiere especial 
-                            protección.
-                            <br>Los centros educativos garantizarán la protección del interés superior del menor y sus 
-                            derechos fundamentales, especialmente el derecho a la protección de datos personales, en la 
-                            publicación o difusión de sus datos personales.
-                            <br>Cuando la publicación o difusión de esos datos tenga lugar a través de servicios de redes 
-                            sociales o servicios equivalentes, deberán contar con el consentimiento del menor, o de sus 
-                            responsables legales si éste es menor de 14 años.                    
-                        </p>
+                    <summary>Tratamiento de Datos de Menores</summary>
+                    <p class="tex">Los menores son considerados personas vulnerables, y su tratamiento de datos requiere
+                        especial protección. Los centros educativos deben garantizar la protección del interés superior
+                        del menor y sus derechos fundamentales, incluido el derecho a la protección de datos personales.</p>
                 </details>
             </section>
-           </main>
+        </main>
+        <script>
+            // Agrega este script para gestionar los detalles
+            const detalles = document.querySelectorAll('details');
+
+            detalles.forEach((detail) => {
+                detail.addEventListener('click', () => {
+                    detalles.forEach((otherDetail) => {
+                        if (otherDetail !== detail) {
+                            otherDetail.removeAttribute('open');
+                        }
+                    });
+                });
+            });
+        </script>
+    </header>
 </body>
+
 </html>
