@@ -50,12 +50,33 @@
     padding-top: 3%;
 }
 
-        main{
+main{
       display: grid;
       grid-template-columns: 6fr 5fr;
       gap: 60px;
       margin-bottom: 10px;
   }
+  section {
+    background: #ffffff;
+      padding: 20px;
+      border-radius: 20px;
+      text-align: center;
+  }
+  .seccion2 {
+    background: rgb(243, 116, 116);
+      padding: 30px; 
+      border-radius: 20px;
+      text-align: center;
+      margin-left: 5%;
+  }
+  .seccion3{
+    background: rgb(243, 116, 116);
+      padding: 20px; 
+      border-radius: 20px;
+      text-align: center;
+      margin-right: 5%;
+  }
+
     </style>
 </head>
 <body>
@@ -91,8 +112,8 @@
         </section>
            </main>
            <br>
-           <main>
-            <section>
+           <main class="main2">
+            <section class="seccion2">
                 <details>
                     <summary>¿Qué son los datos personales?</summary>
                     <p style="text-align: justify">
@@ -101,7 +122,7 @@
                     </p>
                 </details>
             </section>
-            <section>
+            <section class="seccion3">
                 <details>
                 <summary>¿Es necesario el consentimiento previo para tratar datos personales?</summary>
                 <p style="text-align: justify">
@@ -116,6 +137,51 @@
                         </ul>
                 </p>
             </details>
+            </section>
+           </main>
+           <br>
+           <main>
+            <section>
+                <details>
+                    <summary>¿Se puede realizar el tratamiento de datos personales de categorías especiales?</summary>
+                    <p style="text-align: left">
+                        <span style="text-align: left">
+                            En términos generales queda prohibido el tratamiento de datos personales de categorías especiales. 
+                            Estos datos hacen referencia a:                            
+                            <br>Pero además del consentimiento, existen otras bases de legitimación que permiten el tratamiento de datos sin el consentimiento expreso de la persona titular.  
+                            <br>
+                            <ul>
+                                <li>Origen étnico o racial</li>
+                                <li>Opiniones políticas</li>
+                                <li>Convicciones religiosas o filosóficas</li>
+                                <li>Afiliación sindical</li>
+                                <li>Datos genéticos</li>
+                                <li>Datos biométricos</li>
+                                <li>Datos relativos a la salud</li>
+                                <li>Datos relativos a la vida sexual o las orientación sexuales de una persona.</li>
+                            </ul>
+                            Sin embargo, esta prohibición no es de aplicación en algunas circunstancias, y en el ámbito 
+                            educativo, la LOE legitima a los centros educativos a recabar y tratar información del alumnado 
+                            y de sus representantes legales, incluyendo las categorías especiales de datos, como los de salud 
+                            o religión, cuando fuesen necesarios para el desempeño de la función docente y orientadora.
+                    </p>
+                </details>
+            </section>
+            <section>
+                <details>
+                    <summary>Tratamiento de datos de menores</summary>
+                    <p style="text-align: justify">
+                        <span style="text-align: justify">
+                            Los menores se consideran personas vulnerables y el tratamiento de sus datos requiere especial 
+                            protección.
+                            <br>Los centros educativos garantizarán la protección del interés superior del menor y sus 
+                            derechos fundamentales, especialmente el derecho a la protección de datos personales, en la 
+                            publicación o difusión de sus datos personales.
+                            <br>Cuando la publicación o difusión de esos datos tenga lugar a través de servicios de redes 
+                            sociales o servicios equivalentes, deberán contar con el consentimiento del menor, o de sus 
+                            responsables legales si éste es menor de 14 años.                    
+                        </p>
+                </details>
             </section>
            </main>
 </body>
