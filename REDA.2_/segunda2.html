@@ -30,7 +30,7 @@ nav {
             background: rebeccapurple;
         }
 body{
-          background-color: rgb(244, 209, 181);
+          background-color:white;
         }
         .encab{
           text-align: center;
@@ -90,16 +90,35 @@ nav {
         }
 
         .cuadro {
-            position: center;
+            position:relative ;
             border: 1px solid #000000;
+            top: 39px;
             padding: 15px;
             margin: 10px;
             text-align: center;
-            width: 200px; 
-            display: inline-block;
-            box-sizing: border-box;  
-        margin-top: 23px;}
+            width: 210px; 
+        margin-top: 23px;
+        margin-left: 0.5px;
+        background-color: rgb(230, 126, 46);
+        
+       
+    }
+ 
+    .cuadro2{
+        position: relative;
+            border: 1px solid #000000;
+            top: 39px;
+            padding: 15px;
+            margin: 10px;
+            text-align: center;
+            width: 210px; 
+        margin-top: 23px;
+        margin-left: 0.5px;
+    
+      
+       background-color: rgb(255, 176, 73);
 
+    }
 
            </style>
             
@@ -126,10 +145,29 @@ nav {
             <p>
                 La <b><i> identidad en internet</i></b> construye con muchos elementos. Ten en cuenta que todo comunica: el contenido que publicamos, la configuración de la cuenta, los espacios virtuales que visitamos… Todas las acciones aportan información sobre tus hábitos en la red.
          
-                <div class="cuadro">Perfiles Personales</div>
-                <div class="cuadro">Redes Sociales Generales</div>
-                <div class="cuadro">Redes Sociales Profesionales</div>
-                <div class="cuadro">Comentarios</div>
+                <section class="cuadro"><b>Perfiles Personales</b>
+                    <details><summary></summary>
+                        <p style="text-align: justify">
+                            <span style="text-align: justify">
+                                Describen cualquier número de características sobre los individuos, como intereses, experiencia, afiliaciones profesionales, estado, actividad reciente y ubicación geográfica.
+                            </span>
+                        </p></details>
+                </section>
+
+                <section class="cuadro2"><b>Redes Sociales Generales</b>
+                    <details><summary></summary>
+                        <p style="text-align: justify">
+                            <span style="text-align: justify">
+                                Describen cualquier número de características sobre los individuos, como intereses, experiencia, afiliaciones profesionales, estado, actividad reciente y ubicación geográfica.
+                            </span>
+                        </p></details>
+                </section>
+
+
+
+        
+                <section class="cuadro3">Redes Sociales Profesionales</section>
+                <section class="cuadro4">Comentarios</section>
          
 
 
