@@ -7,7 +7,7 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open contenidos.html",
+            "name": "Open creditos.html",
             "file": "c:\\Users\\LINA\\Documents\\GitHub\\REDA_\\REDA.2_\\contenidos.html"
         }
     ]
