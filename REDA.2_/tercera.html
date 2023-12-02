@@ -30,28 +30,32 @@
         }
         h1 {
           color: rgb(0, 0, 0);
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
           border: 2px solid red; 
           padding: 10px; 
           margin-left: 20%;
           margin-right: 20%;
         }
-        .tex {
-            text-align: left;
-            font-size: 20px;
+        h2{
+            text-align: center;
         }
-        .left-section {
-            margin-left: 40px;
-    width: 50%; 
-    margin-right: 20px; 
-    padding-left: 2%;
-}
+        .tex {
+            text-align: justify;
+            font-size: 20px;
+            padding-left: 2%;
+        }
 .img {
-    margin-left: 60%;
+    
     width: 400px;
-    padding-top: 0%;
+    height: 360px;
+    padding-top: 3%;
 }
 
+        main{
+      display: grid;
+      grid-template-columns: 6fr 5fr;
+      gap: 60px;
+      margin-bottom: 10px;
+  }
     </style>
 </head>
 <body>
@@ -69,8 +73,9 @@
             <center>
                 <h1>Protección de datos</h1>
             </center>
-            <div class="left-section">
-                <center><h2>Tratamiento de datos personales</h2></center>
+           <main>
+            <section>
+                <h2>Tratamiento de datos personales</h2>
                 <p class="tex">La protección de datos personales es un derecho fundamental de las personas físicas amparado por 
                     el artículo <b>18.4 de la Constitución Española</b> y regulado por el <b>Reglamento Europeo 2016/679</b> y 
                     por la <b>Ley Orgánica 3/2018 de Protección de Datos Personales</b> y garantía de los derechos digitales. 
@@ -80,10 +85,11 @@
                     <br>La recogida de datos para la matrícula, la actualización del expediente, la gestión de calificaciones, 
                     así como la captación de imágenes y voz del alumnado, son ejemplos de tratamiento de datos, y en todos ellos 
                     se debe garantizar la normativa vigente en materia de protección de datos.</p>
-                    
-                    </div>
-                    <img src="imagenc/datos.png" alt="" class="img">
-            
+        </section>
+        <section>
+            <img src="imagenc/datos.png" alt="no encontrada" width="100" height=100" class="img">
+        </section>
+           </main>
                 <details class="et_pb_toggle_content">
                     <summary>Mostrar/Ocultar Detalles</summary>
                     <p style="text-align: justify">
