@@ -6,17 +6,16 @@
     <title>Protección</title>
     <style>
         nav {
-            background: rgb(214, 48, 48);
+            background:rgb(214, 48, 48);
             color: #f9feff;
             padding: 10px; 
             text-align: center;
             margin-bottom: 10px;
             margin-left: 20px;
             margin-right: 20px;
-            border: 0.1em solid black;
+            border:0.1em solid black;
         }
-
-        nav a {
+  nav a {
             text-decoration: none;
             color: #ffffff;
             padding: 5px 15px;
@@ -24,59 +23,52 @@
             border-radius: 5px;
             background: rgb(243, 116, 116);
             transition: background 0.3s;
+            
         }
-
         nav a:hover {
             background: blue;
         }
-
         h1 {
-            color: rgb(0, 0, 0);
-            font-family: ;
-            border: 2px solid red; 
-            padding: 10px; 
-            margin-left: 20%;
-            margin-right: 20%;
+          color: rgb(0, 0, 0);
+          font-family: ;
+          border: 2px solid red; 
+          padding: 10px; 
+          margin-left: 20%;
+          margin-right: 20%;
         }
-
         .tex {
             text-align: left;
             font-size: 20px;
         }
-
-        .content-container {
-            overflow: hidden; /* Para evitar que el contenedor se colapse */
-        }
-
         .left-section {
-            float: left;
-            width: 50%; 
-            margin-right: 20px; 
-            padding-left: 2%;
-        }
-
-        .img {
-            width: 50%; /* El mismo ancho que el texto */
-            margin-top: 10px; /* Ajusta el margen superior según sea necesario */
-            float: left; /* Alinear a la izquierda */
-        }
+    float: left;
+    width: 50%; 
+    margin-right: 20px; 
+    padding-left: 2%;
+}
+.img {
+    margin-left: 60%;
+    width: 400px;
+    padding-top: 0%;
+    margin-top: ;
+}
     </style>
 </head>
 <body>
     <header>
         <br>
         <nav class="navbar">
+  
             <a href="inicio.html">Inicio</a>|
             <a href="contenidos.html">Contenidos</a>|
             <a href="actividades.html">Actividades</a>|
             <a href="evaluaciones.html">Evaluaciones</a>|
             <a href="materialcomplemetario.html">Material complemetario</a>|
             <a href="creditos.html">Créditos</a>
-        </nav>
-        <center>
-            <h1>Protección de datos</h1>
-        </center>
-        <div class="content-container">
+              </nav>
+            <center>
+                <h1>Protección de datos</h1>
+            </center>
             <div class="left-section">
                 <h2>Tratamiento de datos personales</h2>
                 <p class="tex">La protección de datos personales es un derecho fundamental de las personas físicas amparado por 
@@ -88,17 +80,21 @@
                     <br>La recogida de datos para la matrícula, la actualización del expediente, la gestión de calificaciones, 
                     así como la captación de imágenes y voz del alumnado, son ejemplos de tratamiento de datos, y en todos ellos 
                     se debe garantizar la normativa vigente en materia de protección de datos.</p>
+                    
+                    </div>
+                    <img src="imagenc/datos.png" alt="" class="img">
+            
+                <details class="et_pb_toggle_content">
+                    <summary>Mostrar/Ocultar Detalles</summary>
+                    <p style="text-align: justify">
+                        <span style="text-align: justify">
+                            Toda la información que <strong>identifique</strong> a una persona física, como datos identificativos (nombre, apellidos, DNI,..) o datos propios de su identidad física (imagen o voz), fisiológica, genética, psíquica, cultural, social o económica.
+                        </span>
+                    </p>
+                </details>
             </div>
-            <img src="imagenc/datos.png" alt="" class="img">
-        </div>
-        <details class="et_pb_toggle_content">
-            <summary>Mostrar/Ocultar Detalles</summary>
-            <p style="text-align: justify">
-                <span style="text-align: justify">
-                    Toda la información que <strong>identifique</strong> a una persona física, como datos identificativos (nombre, apellidos, DNI,..) o datos propios de su identidad física (imagen o voz), fisiológica, genética, psíquica, cultural, social o económica.
-                </span>
-            </p>
-        </details>
-    </header>
+            
+            
+            
 </body>
 </html>
