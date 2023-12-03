@@ -66,6 +66,8 @@
             padding: 20px;
             border-radius: 20px;
             text-align: center;
+            overflow: hidden;
+            transition: height 0.3s ease;
         }
 
         .seccion2,
@@ -78,6 +80,8 @@
             text-align: center;
             margin: 0 5%;
             font-size: 19px;
+            overflow: hidden;
+            transition: height 0.3s ease;
         }
     </style>
 </head>
@@ -152,18 +156,33 @@
                 </details>
             </section>
         </main>
-        <script>            const detalles = document.querySelectorAll('details');
+        <script>
+            const mainSections = document.querySelectorAll('main section');
 
-            detalles.forEach((detail) => {
-                detail.addEventListener('click', () => {
-                    detalles.forEach((otherDetail) => {
-                        if (otherDetail !== detail) {
-                            otherDetail.removeAttribute('open');
-                        }
-                    });
-                });
-            });
+mainSections.forEach((section) => {
+    const details = section.querySelector('details');
+    const content = section.querySelector('.tex'); 
+
+    details.addEventListener('click', () => {
+        mainSections.forEach((otherSection) => {
+            if (otherSection !== section) {
+                const otherDetails = otherSection.querySelector('details');
+                const otherContent = otherSection.querySelector('.tex');
+
+                otherDetails.removeAttribute('open');
+                otherContent.style.height = '0';
+            }
+        });
+
+        if (details.hasAttribute('open')) {
+            content.style.height = '0';
+        } else {
+            content.style.height = content.scrollHeight + 'px';
+        }
+    });
+});
         </script>
+        
     </header>
 </body>
 
