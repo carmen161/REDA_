@@ -3,201 +3,240 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Evaluaciones</title>
+    <title>Evaluaciones</title>
     <link rel="shortcut icon" href="img/evalu.png">
     <link rel="stylesheet" href="style.css">
     <style>
-         body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 30px;
-      padding: 20px;
-      background-color: #F2EEAC;
-  }
-  
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 30px;
+            padding: 20px;
+            background-color: white;
+        }
 
-  header{
-border-color: white;
-border-style: solid;
-border-radius: 5px;
-    background-color:#618CBF;
-text-align: center;
-margin-top: 1px;
-padding: 35px;
-font-family: 'Times New Roman', Times, serif;
-font-size: 30px;
+        header {
+            border-color: white;
+            border-style: solid;
+            border-radius: 3px;
+            background-color: #4f87cc;
+            text-align: center;
+            margin-top: 1px;
+            padding: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            color: #fff;
+            border:0.1em solid black;
+        }
 
+        ul {
+            background: #93b9f1;
+            color: #f9feff;
+            text-align: center;
+            list-style: none;
+            padding-top: 20px;
+            margin-bottom: auto;
+            padding-bottom: 20px;
+            border-radius: 5px;
+            border-style: solid;
+            border-color: white;
+            margin-left: 12px;
+            margin-right: 12px;
+            border:0.1em solid black;
+        }
 
-  }
+        ul a {
+            text-decoration: none;
+            color: #000000;
+            padding: 5px 15px;
+            margin: 0 5px;
+            border-radius: 5px;
+            background:rgb(144, 156, 206);
+            transition: background 0.3s;
+        }
 
-  
+        
 
-  ul {
-      background: #587E8C;
-      color: #f9feff;; 
-      text-align: center;
-      list-style: none;
-      padding-top:20px;
+        ul a:hover {
+            background: white;
+            color: #000000;
+        }
 
-      margin-bottom: auto;
-      padding-bottom: 20px;
-      border-radius: 5px;
-      border-style: solid;
-      border-color:white;
-      margin-left: 12px;
-      margin-right: 12px;
+        .li {
+            display: inline-flex;
+            margin-right: 20px;
+            list-style: none;
+        }
 
-    }
+        .preguntas {
+            background-color: #F2EEAC;
+            margin: 10px;
+            padding: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.3em;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border:0.1em solid black;
+        }
 
-ul a {
-    text-decoration: none;
-    color: #000000;
-    padding: 5px 15px;
-    margin: 0 5px;
-    border-radius: 5px;
-    background: #87C1D6;
-    transition: background 0.3s;
-    
+        .question {
+            margin-bottom: 20px;
+        }
 
-}
-.eval{
-  background-color: #587E8C;
-}
-ul a:hover {
-    background: white;
-}
-.li{
-          display:inline-flex;
-          margin-right: 20px; 
-          list-style:none;
-  
-      }
-  .preg_1{
-padding-top:20px;
-padding-bottom: 20px;
-background-color:;
-}
-.formulario_1{
-    margin-top: 20px;
-background-color: #587E8C;
-padding: 20px;
-border-radius: 10px;
-border-color: black;
-border-style: solid;
-font-family: 'Times New Roman', Times, serif;
-font-size: 1.4em;
-margin-right: 40%;
-}
+        button {
+            background-color: #5b97c9;
+            color: #fff;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
 
-#aside {
+        button:hover {
+            background-color: #587E8C;
+        }
 
-background-color:#618CBF ;
-margin-left: 800px;
-width: 300px;
-height: 300px;
-text-align: center;
-padding: auto;
-margin-top: -400px;
-border-radius: 10px;
-border-color: #f9feff;
-border-style: solid;
-padding: 10px;
-
-}
-
-
-img{
-
-width: 280px;
-margin-left: 70%;
-margin-top: -435px;
-display: flex;
-
-
-
-}
-
-       
-
-
+        .result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
     </style>
 </head>
 
 <body>
-    <header>EVALUACIONES</header>
-  
-    
-        <ul>
-          <div class="li">
-          <li><a href="inicio.html">Inicio</a></li>
-          <li><a href="contenidos.html">Contenidos</a></li>
-          <li><a href="actividades.html">Actividades</a></li>
-          <li><a class="eval" href="evaluaciones.html">Evaluaciones</a></li>
-          <li><a href="materialcomplemetario.html">Material complemetario</a></li>
-          <li><a href="creditos.html">Créditos</a></li>
+    <header><b>EVALUACIONES</b></header>
+
+    <ul>
+        <div class="li">
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="contenidos.html">Contenidos</a></li>
+            <li><a href="actividades.html">Actividades</a></li>
+            <li><a class="eval" href="evaluaciones.html">Evaluaciones</a></li>
+            <li><a href="materialcomplemetario.html">Material complementario</a></li>
+            <li><a href="creditos.html">Créditos</a></li>
+        </div>
     </ul>
 
-
-<main id="formulario">
-  
-<div class="formulario_1">
-  <fieldset class="preg_1">
-    <legend>Pregunta 1: ¿Qué es la identidad digital?</legend>
-    <label for="q1_option1">
-      <input type="radio" id="q1_option1" name="q1" value="opcion1">La identidad digital se refiere 
-      exclusivamente a la cantidad de seguidores y likes que una persona tiene en redes sociales.
-    </label>
-    <br>
-    <br>
-    <label for="q1_option2">
-      <input type="radio" id="q1_option2" name="q1" value="opcion2"> La identidad digital se refiere 
-      exclusivamente a la cantidad de seguidores y likes que una persona tiene en redes sociales.
-    </label>
-    <br>
-    <br>
-    <label for="q1_option3">
-      <input type="radio" id="q1_option3" name="q1" value="opcion3">Se entiende por identidad 
-      digital únicamente la seguridad de las contraseñas en línea de una persona.
-    </label>
-    <br>
-    <br>
-    <label for="q1_option4">
-      <input type="radio" id="q1_option4" name="q1" value="opcion4">La identidad digital es un concepto 
-      obsoleto,
-       ya que la privacidad en línea no tiene relevancia en la actualidad.
-    </label>
+    <div class="preguntas">
+      <div id="question1" class="question">
+        <p>Pregunta 1: ¿Cuál es uno de los riesgos asociados al uso excesivo de las redes sociales según el texto?</p>
+        <input type="radio" name="q1" value="a"> a) Aumento de la autoestima.<br>
+        <input type="radio" name="q1" value="b"> b) Mayor acceso a recursos educativos.<br>
+        <input type="radio" name="q1" value="c"> c) Pérdida de privacidad y exposición a ciberbullying.<br>
+        <input type="radio" name="q1" value="d"> d) Fortalecimiento de las relaciones familiares.<br>
+        <button onclick="checkAnswer('q1', 'c')">Verificar</button>
+        <p class="result" id="result1"></p>
+      </div>
+      
     
+    
+    
+    <div id="question2" class="question">
+      <p>Pregunta 2: ¿Qué tipo de tecnologías suelen utilizarse para llevar a cabo el ciberbullying?</p>
+      <input type="radio" name="q2" value="a"> a) Teléfonos fijos.<br>
+      <input type="radio" name="q2" value="b"> b) Cartas postales.<br>
+      <input type="radio" name="q2" value="c"> c) Señales de humo<br>
+      <input type="radio" name="q2" value="d"> d)  Redes sociales, videojuegos online y grupos de WhatsApp.<br>
+      <button onclick="checkAnswer('q2', 'd')">Verificar</button>
+      <p class="result" id="result2"></p>
+    </div>
+    
+    <div id="question3" class="question">
+      <p>Pregunta 3: ¿Cuál es uno de los posibles efectos negativos del ciberbullying mencionado en el texto?</p>
+      <input type="radio" name="q3" value="a"> a) Perjuicio considerable para la víctima, ya que puede ocurrir en cualquier momento y lugar.<br>
+      <input type="radio" name="q3" value="b"> b) Mayor acceso a recursos educativos.<br>
+      <input type="radio" name="q3" value="c"> c) Mejora de las habilidades sociales.<br>
+      <input type="radio" name="q3" value="d"> d) Aumento de la autoestima.<br>
+      <button onclick="checkAnswer('q3', 'a')">Verificar</button>
+      <p class="result" id="result3"></p>
+    </div>
+    
+    <div id="question4" class="question">
+      <p>Pregunta 4: ¿Qué diferencia clave se destaca entre el ciberbullying y el acoso escolar tradicional en cuanto a su duración?</p>
+      <input type="radio" name="q4" value="a"> a) El ciberbullying siempre es de corta duración.<br>
+      <input type="radio" name="q4" value="b"> b) El acoso escolar tradicional puede durar más tiempo.<br>
+      <input type="radio" name="q4" value="c"> c) Ambos tienen la misma duración.<br>
+      <input type="radio" name="q4" value="d"> d) El ciberbullying puede prolongarse las 24 horas del día.<br>
+      <button onclick="checkAnswer('q4', 'd')">Verificar</button>
+      <p class="result" id="result4"></p>
+    </div>
+    
+    <div id="question5" class="question">
+      <p>Pregunta 5: ¿Qué busca un adulto al realizar grooming a un menor a través de Internet?</p>
+      <input type="radio" name="q5" value="a"> a) Consejos educativos.<br>
+      <input type="radio" name="q5" value="b"> b) Establecer una amistad saludable.<br>
+      <input type="radio" name="q5" value="c"> c) Ganarse la confianza del menor con la intención de obtener contenido sexual explícito.<br>
+      <input type="radio" name="q5" value="d"> d) Enseñar habilidades informáticas.<br>
+      <button onclick="checkAnswer('q5', 'c')">Verificar</button>
+      <p class="result" id="result5"></p>
+    </div>
+    
+    <div id="question6" class="question">
+      <p>Pregunta 6: ¿Cuál es una posible consecuencia psicológica para la víctima de grooming, según el texto?</p>
+      <input type="radio" name="q6" value="a"> a) Mayor autoestima.<br>
+      <input type="radio" name="q6" value="b"> b) Cambios positivos en el rendimiento escolar.<br>
+      <input type="radio" name="q6" value="c"> c) Depresión, baja autoestima y desconfianza.<br>
+      <input type="radio" name="q6" value="d"> d) Incremento de la confianza en otras personas.<br>
+      <button onclick="checkAnswer('q6', 'c')">Verificar</button>
+      <p class="result" id="result6"></p>
+    </div>
+    
+    <div id="question7" class="question">
+      <p>Pregunta 7: ¿Cómo afecta el grooming a nivel familiar, según el texto?</p>
+      <input type="radio" name="q7" value="a"> a) Mejora las relaciones familiares.<br>
+      <input type="radio" name="q7" value="b"> b) Provoca un empeoramiento de las relaciones y chantajes a la propia familia por parte del acosador.<br>
+      <input type="radio" name="q7" value="c"> c) No tiene impacto en la dinámica familiar<br>
+      <input type="radio" name="q7" value="d"> d) Fortalece los lazos familiares.<br>
+      <button onclick="checkAnswer('q7', 'b')">Verificar</button>
+      <p class="result" id="result7"></p>
+    </div>
+    
+    <div id="question8" class="question">
+      <p>Pregunta 8: ¿Cuál puede ser el siguiente paso después del grooming, según se menciona en el texto?</p>
+      <input type="radio" name="q8" value="a"> a) La creación de una amistad duradera.<br>
+      <input type="radio" name="q8" value="b"> b) El abuso sexual.<br>
+      <input type="radio" name="q8" value="c"> c) Participación en actividades educativas en línea.<br>
+      <input type="radio" name="q8" value="d"> d) Desarrollo de habilidades informáticas avanzadas.<br>
+      <button onclick="checkAnswer('q8', 'b')">Verificar</button>
+      <p class="result" id="result8"></p>
+    </div>
+    
+    <div id="question9" class="question">
+      <p>Pregunta 9: ¿Qué actividad se destaca como fundamental para asegurar los derechos de los menores en Internet, según el texto?</p>
+      <input type="radio" name="q9" value="a"> a) Restringir por completo el acceso de los menores a Internet.<br>
+      <input type="radio" name="q9" value="b"> b) Fomentar un diálogo fluido y sano con los menores, haciéndoles conscientes de los riesgos en línea.<br>
+      <input type="radio" name="q9" value="c"> c) Dejar que los menores administren su información personal sin intervención.<br>
+      <input type="radio" name="q9" value="d"> d) Ignorar los riesgos potenciales de Internet.<br>
+      <button onclick="checkAnswer('q9', 'b')">Verificar</button>
+      <p class="result" id="result9"></p>
+    </div>
+    
+    <div id="question10" class="question">
+      <p>Pregunta 10: ¿Cuál es la responsabilidad que se destaca al enseñar a los menores sobre su conducta en Internet?</p>
+      <input type="radio" name="q10" value="a"> a) Ignorar los derechos de los terceros en línea.<br>
+      <input type="radio" name="q10" value="b"> b) No tener ninguna obligación hacia los demás en el entorno digital.<br>
+      <input type="radio" name="q10" value="c"> c) La importancia de tener una conducta responsable en Internet y respetar los derechos de los terceros.<br>
+      <input type="radio" name="q10" value="d"> d) No es necesario enseñar a los menores sobre su comportamiento en línea.<br>
+      <button onclick="checkAnswer('q10', 'c')">Verificar</button>
+      <p class="result" id="result10"></p>
+    </div>
 
-  </fieldset>
+    <script>
+        function checkAnswer(question, correctOption) {
+            const selectedOption = document.querySelector(`input[name=${question}]:checked`);
 
-
-  <fieldset>
-    <legend>Pregunta 2: ¿Cuales son los riesgos de las tecnologías?</legend>
-    <label for="q2_option1">
-      <input type="radio"  name="q2" value="opcion1"> Opción 1
-    </label>
-    <label for="q2_option2">
-      <input type="radio"  name="q2" value="opcion2"> Opción 2
-    </label>
-    <label for="q2_option3">
-      <input type="radio"  name="q3" value="opcion3"> Opción 2
-    </label>
-    <label for="q2_option4">
-      <input type="radio"   name="q4"value="opcion4"> Opción 2
-    </label>
-
-  </fieldset>
-  <center>
-  <input type="submit" value="Enviar respuestas">
-</center>
-</div>
-  <aside id="aside">
-    <h2>BIENVENIDO A EVALUACIONES</h2>
-    <p>Aquí encontraras una serie de preguntas que nos ayudarán a saber tu nivel de entiendimiento 
-      acerca del uso responsable y seguro de las TIC
-    </p>
-  </aside>
-</main>
-
-<img src="img/R (9).png">
+            if (selectedOption) {
+                const resultElement = document.getElementById(`result${question.charAt(question.length-1)}`);
+                if (selectedOption.value === correctOption) {
+                    resultElement.innerHTML = '¡Correcto!';
+                    resultElement.style.color = 'green';
+                } else {
+                    resultElement.innerHTML = 'Incorrecto. La respuesta correcta es ' + correctOption.toUpperCase();
+                    resultElement.style.color = 'red';
+                }
+            } else {
+                alert('Por favor, selecciona una opción antes de verificar.');
+            }
+        }
+    </script>
 </body>
 </html>
