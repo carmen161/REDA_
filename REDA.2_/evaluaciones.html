@@ -62,7 +62,7 @@
         }
 
         .preguntas {
-            background-color: #F2EEAC;
+            background-color:  #6cc6d6;
             margin: 10px;
             padding: 10px;
             font-family: 'Times New Roman', Times, serif;
@@ -77,12 +77,25 @@
         }
 
         button {
-            background-color: #5b97c9;
-            color: #fff;
+            background-color: #7ed957;
+            color: black;
             padding: 8px 15px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
+        }
+        .futer {
+    text-align: center;
+        width: auto;
+        font-size: 18px;
+        background-image: linear-gradient(to right, #0097b2, #7ed957);
+        overflow: hidden;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border: 0.1em solid black;
+        padding: 10px;
         }
 
         button:hover {
@@ -111,6 +124,7 @@
             <li><a href="creditos.html">Créditos</a></li>
         </div>
     </ul>
+    
 
     <div class="preguntas">
       <div id="question1" class="question">
@@ -215,7 +229,12 @@
       <button onclick="checkAnswer('q10', 'c')">Verificar</button>
       <p class="result" id="result10"></p>
     </div>
-
+    
+    <footer class="futer">
+      <br />
+          <b> FACULTAD DE EDUCACION-PROGRAMA LIMAV</b>
+        </footer>
+    </footer>
     <script>
         function checkAnswer(question, correctOption) {
             const selectedOption = document.querySelector(`input[name=${question}]:checked`);
@@ -234,5 +253,6 @@
             }
         }
     </script>
+     
 </body>
 </html>
