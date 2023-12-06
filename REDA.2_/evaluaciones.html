@@ -84,19 +84,8 @@
             border-radius: 5px;
             cursor: pointer;
         }
-        .futer {
-    text-align: center;
-        width: auto;
-        font-size: 18px;
-        background-image: linear-gradient(to right, #0097b2, #7ed957);
-        overflow: hidden;
-        margin-bottom: 10px;
-        margin-top: 20px;
-        margin-left: 30px;
-        margin-right: 30px;
-        border: 0.1em solid black;
-        padding: 10px;
-        }
+
+
 
         button:hover {
             background-color: #587E8C;
@@ -106,6 +95,22 @@
             margin-top: 10px;
             font-weight: bold;
         }
+
+        footer{
+        text-align: center;
+        background-color: #0097b2;
+        margin-top: 70px;
+        padding: 30px;
+        font-size: 1.4em;
+      }
+
+       
+
+
+
+
+
+
     </style>
 </head>
 
@@ -124,6 +129,7 @@
             <li><a href="creditos.html">Créditos</a></li>
         </div>
     </ul>
+ <main>
     
 
     <div class="preguntas">
@@ -229,12 +235,14 @@
       <button onclick="checkAnswer('q10', 'c')">Verificar</button>
       <p class="result" id="result10"></p>
     </div>
+</main>
+
+<center>
+<footer>
+  FACULTAD DE EDUCACIÓN-PROGRAMA-LIMAV
+</footer>
+</center>
     
-    <footer class="futer">
-      <br />
-          <b> FACULTAD DE EDUCACION-PROGRAMA LIMAV</b>
-        </footer>
-    </footer>
     <script>
         function checkAnswer(question, correctOption) {
             const selectedOption = document.querySelector(`input[name=${question}]:checked`);
